@@ -9,6 +9,12 @@ object DeviceLogdraw {
 
   /**
    * 从平台日志中抽取设备相关的数据，作为用户上网行为分析的数据源
+   * |-- Device      string   	设备型号，如HTC、iPhone'
+      -- Client      tinyint	  设备类型
+      -- OsVersion   string   	设备操作系统版本，如4.0'
+      -- Density     string   	设备屏幕的密度
+      -- Pw      int   	设备屏幕宽度'
+      -- Ph      int   	设备屏幕高度'
    * @param args
    */
   def main(args: Array[String]) {
