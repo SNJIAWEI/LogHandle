@@ -39,7 +39,7 @@ object DeviceLogdraw {
     })
 
     deviceData.saveAsTextFile(resultDir)
-
+    sc.stop()
   }
 
 }
