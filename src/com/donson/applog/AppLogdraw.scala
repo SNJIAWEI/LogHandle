@@ -4,7 +4,7 @@ import com.donson.common.Utils
 import org.apache.spark.{SparkContext, SparkConf}
 
 /**
- * Created by Jiawei on 10/15/15.
+ * Created by ll on 10/15/15.
  */
 object AppLogdraw {
 
